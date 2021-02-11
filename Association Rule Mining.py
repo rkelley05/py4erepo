@@ -1,3 +1,6 @@
+## this code creates a set of definitions and then tests a data series (of grocery receipts) to determine what items are frequently bought together
+## this is useful for recommended products, maintaining and predicting product supply, among other purposes.
+
 import re
 from collections import defaultdict
 from itertools import combinations
